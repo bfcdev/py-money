@@ -29,6 +29,7 @@ class Coin(Enum):
     XTZ = "XTZ"
     VET = "VET"
     DOGE = "DOGE"
+    MKR = "MKR"
 
 
 class CoinHelper(object):
