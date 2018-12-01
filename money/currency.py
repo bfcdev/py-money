@@ -4,6 +4,7 @@ from enum import Enum
 
 #pylint: disable=too-many-lines
 
+
 class Currency(Enum):
     """Enumerates all supported currencies"""
 
@@ -1289,7 +1290,6 @@ class CurrencyHelper:
     @classmethod
     def decimal_precision_for_currency(cls, currency: Currency) -> int:
         """Returns the decimal precision for a currency (number of digits after the decimal)"""
-
         return cls._CURRENCY_DATA[currency]['default_fraction_digits']
 
     @classmethod
